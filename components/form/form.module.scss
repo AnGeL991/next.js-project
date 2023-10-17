@@ -1,0 +1,32 @@
+.form {
+	padding: 16px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 16px;
+
+	.halfSize {
+		width: calc(50% - 8px);
+	}
+
+	.buttonBox {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-self: center;
+	}
+	.btn {
+		width: 200px;
+		height: 45px;
+		color: white;
+		box-shadow: 5px 10px 20px -10px rgba(0, 0, 0, 0.33);
+		border-radius: 4px;
+		background-color: #009fb7;
+		transition: 0.3s linear all;
+		&:hover {
+			background-color: #fe4a49;
+		}
+	}
+}

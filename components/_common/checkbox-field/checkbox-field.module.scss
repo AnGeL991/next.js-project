@@ -1,0 +1,16 @@
+.label {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.label > span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2px;
+	font-size: 12px;
+}
+.checkbox {
+	margin: 0;
+	padding: 0 9px;
+}

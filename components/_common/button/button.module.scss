@@ -1,0 +1,11 @@
+.button {
+	color: var(--darkColor);
+	border-radius: 0;
+	font-weight: 700;
+	border-color: var(--platinum);
+	border-width: 2px;
+	&:hover {
+		border-width: 2px;
+		border-color: var(--moonstone);
+	}
+}

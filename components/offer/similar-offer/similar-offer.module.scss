@@ -1,0 +1,23 @@
+.similarOffer {
+	padding: 16px;
+	border: 1px solid var(--platinum);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 24px;
+
+	cursor: pointer;
+	.title {
+		color: var(--moonstone);
+		margin: 0px 0px 8px;
+	}
+	.details {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+		.icon {
+			color: var(--moonstone);
+		}
+	}
+}

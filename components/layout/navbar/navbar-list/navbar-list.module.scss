@@ -1,0 +1,12 @@
+.navbarList {
+	padding: 0 16px;
+	max-width: 1334px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	a {
+		text-decoration: none;
+		color: var(--textColor);
+	}
+}

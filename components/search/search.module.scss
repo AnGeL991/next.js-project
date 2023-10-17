@@ -1,0 +1,30 @@
+.search {
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+	.input {
+		width: 700px;
+		padding: 20px;
+		border-radius: 4px;
+		border: 0px solid white;
+		box-shadow: var(--boxShadow);
+		outline: none;
+		&::placeholder {
+			font-weight: 600;
+		}
+	}
+	.button {
+		box-shadow: var(--boxShadow);
+		border-radius: 4px;
+		width: 120px;
+		height: 70px;
+		background-color: var(--moonstone);
+		.icon {
+			color: white;
+			font-size: 32px;
+		}
+		&:hover {
+			background-color: var(--redColor);
+		}
+	}
+}

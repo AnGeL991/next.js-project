@@ -1,0 +1,51 @@
+.newsletter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	padding: 24px;
+	.icon {
+		font-size: 130px;
+		color: var(--platinum);
+	}
+	.text {
+		font-size: 24px;
+		font-weight: 600;
+		color: var(--darkColor);
+		margin: 0;
+		padding-bottom: 8px;
+	}
+	.subText {
+		color: var(--textColor);
+		font-size: 14px;
+	}
+	.send {
+		display: flex;
+
+		.input {
+			width: 300px;
+			padding: 20px;
+			border-radius: 4px;
+			border: 0px solid white;
+			box-shadow: var(--boxShadow);
+			outline: none;
+			&::placeholder {
+				font-weight: 600;
+			}
+		}
+		.button {
+			box-shadow: var(--boxShadow);
+			border-radius: 4px;
+			width: 120px;
+			height: 70px;
+			background-color: var(--moonstone);
+			.icon {
+				color: white;
+				font-size: 32px;
+			}
+			&:hover {
+				background-color: var(--redColor);
+			}
+		}
+	}
+}

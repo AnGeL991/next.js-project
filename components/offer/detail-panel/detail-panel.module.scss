@@ -1,0 +1,89 @@
+.wrapper {
+	height: 100%;
+}
+.details {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+
+	.detailsInfo {
+		border-bottom: 2px solid var(--platinum);
+		width: 100%;
+		padding: 16px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.date {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		height: 45px;
+		width: calc(50% - 1px);
+		border-bottom: 2px solid var(--platinum);
+		span {
+			font-weight: 600;
+		}
+	}
+
+	.borderRight {
+		border-right: 2px solid var(--platinum);
+	}
+
+	.title {
+		color: var(--moonstone);
+	}
+
+	.company {
+		color: var(--textColor);
+	}
+
+	.icon,
+	.share {
+		font-size: 25px;
+		color: var(--textColor);
+	}
+
+	.share {
+		cursor: pointer;
+		transition: var(--transition);
+		&:hover {
+			transform: translateY(-5px);
+		}
+	}
+
+	.description {
+		padding: 16px;
+		color: var(--textColor);
+		h3 {
+			color: var(--darkColor);
+		}
+	}
+
+	.info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 10px;
+		width: 100%;
+	}
+
+	.rightInfo {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.salary {
+		display: flex;
+		gap: 10px;
+	}
+	.header {
+		margin-bottom: 10px;
+		color: var(--darkColor);
+		font-weight: 700;
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,33 @@
+.modal {
+	min-width: 700px;
+	min-height: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border: 1px solid var(--platinum);
+	border-radius: 4px;
+
+	.body,
+	.header {
+		padding: 12px 16px;
+	}
+
+	.body {
+		position: relative;
+	}
+	.header {
+		line-height: 45px;
+		border-bottom: 1px solid #e6e6ea;
+		color: #000;
+		font-weight: 600;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.icon {
+		cursor: pointer;
+		font-size: 18px;
+	}
+}

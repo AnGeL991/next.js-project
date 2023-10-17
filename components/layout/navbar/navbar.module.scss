@@ -1,0 +1,17 @@
+.navbar {
+	display: grid;
+	grid-template-columns: 1fr 1324px 1fr;
+	height: 58px;
+	padding: 9px 12px;
+	overflow: hidden;
+	.menu {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.action {
+		display: flex;
+		gap: 40px;
+	}
+}

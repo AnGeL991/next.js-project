@@ -1,0 +1,12 @@
+.detailIcon {
+	color: var(--darkColor);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 5px;
+	font-weight: 400;
+	.icon {
+		font-size: 22px;
+		color: var(--textColor);
+	}
+}

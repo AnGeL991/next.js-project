@@ -1,0 +1,65 @@
+.eachOffer {
+	margin: 12px 0px;
+	background-color: white;
+	padding: 24px 16px;
+	box-shadow: var(--boxShadow);
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	overflow: hidden;
+	.logo {
+		width: 20%;
+		max-height: 150px;
+	}
+	.details {
+		width: 100%;
+		color: var(--textColor);
+		font-size: 14px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.detailsInfo {
+			display: flex;
+			justify-content: space-between;
+		}
+		.date {
+			font-size: 16px;
+			color: var(--textColor);
+		}
+		.salaryDetails {
+			display: flex;
+			flex-direction: column;
+			gap: 25px;
+			text-align: right;
+		}
+		.salary {
+			font-size: 24px;
+
+			font-weight: 700;
+			color: var(--darkColor);
+		}
+		.title {
+			color: var(--darkColor);
+			font-weight: 600;
+			padding: 12px 0px;
+			margin: 0;
+			font-size: 18px;
+		}
+		.company {
+			font-size: 14px;
+		}
+	}
+	.detailsTopic {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 8px 4px;
+		.detailsIcon,
+		.detailsItem {
+			display: flex;
+			justify-content: center;
+			align-items: baseline;
+			gap: 10px;
+		}
+	}
+}

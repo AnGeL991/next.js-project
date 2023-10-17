@@ -1,0 +1,14 @@
+.offerDetails {
+	background-color: var(--ghostWhite);
+	overflow: hidden;
+    height: 100%;
+	.wrapper {
+		display: flex;
+		max-width: 1324px;
+		margin: 0 auto;
+		.apply,
+		.notice {
+			padding: 16px;
+		}
+	}
+}

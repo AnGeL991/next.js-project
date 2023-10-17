@@ -1,0 +1,14 @@
+[data-theme='light'] {
+	/* Main colors */
+	--platinum: #e6e6ea;
+	--ghostWhite: #f4f4f8;
+	--moonstone: #009fb7;
+	--textColor: #455565;
+	--darkColor: #000000;
+	--redColor: #fe4a49;
+
+	--boxShadowInset: inset 0px -20px 5px -10px var(--moonstone);
+	--boxShadowHoverInset: inset 0px -20px 5px -10px var(--redColor);
+	--boxShadow: 5px 10px 20px -10px rgba(0, 0, 0, 0.33);
+	--transition: 0.3s linear all;
+}

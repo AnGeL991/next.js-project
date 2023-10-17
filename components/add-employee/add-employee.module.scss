@@ -1,0 +1,31 @@
+.addEmployee {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	.description {
+		h3 {
+			font-weight: 500;
+		}
+		span {
+			font-weight: 300;
+			color: var(--textColor);
+		}
+	}
+	.icon {
+		font-size: 72px;
+		color: var(--moonstone);
+	}
+	.addOffer {
+		cursor: pointer;
+		padding: 10px;
+		font-weight: 700;
+		color: var(--darkColor);
+		font-size: 18px;
+		box-shadow: var(--boxShadowInset);
+		transition: var(--transition);
+		&:hover {
+			box-shadow: var(--boxShadowHoverInset);
+		}
+	}
+}

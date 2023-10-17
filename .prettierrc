@@ -1,0 +1,16 @@
+{
+	"singleQuote": true,
+	"tabWidth": 2,
+	"useTabs": true,
+	"trailingComma": "all",
+	"printWidth": 150,
+	"endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["*.graphql"],
+      "options": {
+        "useTabs": false
+      }
+    }
+  ]
+}

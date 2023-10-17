@@ -1,0 +1,12 @@
+.navbarItem {
+	font-size: 16px;
+	font-weight: 600;
+	a {
+		color: rgb(131, 125, 125);
+	}
+	& a:hover {
+		transition: 0.3s linear all;
+		text-decoration: underline;
+		color: rgb(131, 125, 125);
+	}
+}
